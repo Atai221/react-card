@@ -16,7 +16,7 @@ export const Card = props => {
 				<div className='card__style'>
 					<h6 className='card__data'>{data}</h6>
 					<h3 className='card__title'>{title}</h3>
-					<button className='card__btn' onClick={onClick}>
+					<button className='card__button' onClick={onClick}>
 						{buttonText}
 					</button>
 				</div>
